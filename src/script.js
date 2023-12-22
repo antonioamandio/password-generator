@@ -12,7 +12,7 @@ const copyBtn = document.getElementById('copy_btn');
 
 copyBtn.addEventListener('click', function() {
 
-    const passwordText = document.querySelector('#password p').textContent;
+    const passwordText = document.querySelector("#password p").textContent;
     navigator.clipboard.writeText(passwordText);
     this.setAttribute("class", "fa-solid fa-check");
 
@@ -21,6 +21,8 @@ copyBtn.addEventListener('click', function() {
 const generateBtn = document.querySelector("button");
 
 generateBtn.addEventListener("click", function() {
+
+    document.getElementById('copy_btn').setAttribute("class", "fa-solid fa-copy");
 
     const checkUppercase = document.getElementById("uppercase");
     const checkLowercase = document.getElementById("lowercase");

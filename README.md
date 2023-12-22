@@ -8,7 +8,7 @@ Essa aplicação pode ser usada por qualquer pessoa. Você pode ter acesso a ela
 
 ## 🔗 Links
 
-<a href="https://antonioamandio.github.io/password_generator/src/index.html">https://antonioamandio.github.io/password_generator/src/index.html</a>
+<a href="https://antonioamandio.github.io/password_generator/src/index.html" target="_blank">https://antonioamandio.github.io/password_generator/src/index.html</a>
 
 [![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/antonioamandio)
 [![instagram](https://img.shields.io/badge/instagram-darkred?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/antonio__amandio/)

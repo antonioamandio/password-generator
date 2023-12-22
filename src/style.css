@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* Importing the icons */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+/* Importing the fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+/* Configuring the variables */
+
+:root {
+    --green: #2e8b57;
+    --black: #2d2f31;
+    --fontPadrao: 'Fira Mono', monospace, sans-serif;
+}
+
+/* Default configurations */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontPadrao);
+}
+
+/* Elements configurations */
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+main {
+    width: 400px;
+    height: 435px;
+}
+
+#password {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px 0;
+    outline: none;
+    margin-bottom: 30px;
+    background-color: var(--black);
+}
+
+#password p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#password i, .ative_connection{
+    color: var(--green);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#password i:hover {
+    color: #217445;
+}
+
+#configurations {
+    padding-block: 20px 25px;
+    padding-inline: 25px;
+    background-color: var(--black);
+    height: calc(100% - 55px);
+}
+
+#lenght_password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#lenght_password p {
+    color: white;
+    font-size: 14px;
+}
+
+#lenght_password output {
+    color: var(--green);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#progress {
+    width: 100%;
+    accent-color: var(--green);
+    font-weight: lighter;
+    margin-bottom: 15px;
+    cursor: pointer;
+} 
+
+#check_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#check_container .checkbox {
+    display: flex;
+    gap: 15px;
+    margin-block: 6px;
+}
+
+input[type=checkbox] {
+    accent-color: var(--green);
+    cursor: pointer;
+}
+
+#check_container label {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+#password_strength {
+    padding-inline: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin-bottom: 25px;
+}
+
+#password_strength p {
+    color: gray;
+}
+
+#password_strength strong {
+    color: white;
+    text-transform: uppercase;
+}
+
+#configurations button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: var(--green);
+}
+
+#configurations button:hover {
+    background-color: #217445;
+}
+
+#configurations button:hover i {
+    transition: .2s;
+    transform: translateX(5px);
+}
+
+/* Media query */
+
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+}

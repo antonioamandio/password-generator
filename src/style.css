@@ -13,7 +13,7 @@
 :root {
     --green: #2e8b57;
     --black: #2d2f31;
-    --fontPadrao: 'Fira Mono', monospace, sans-serif;
+    --defaultFont: 'Fira Mono', monospace, sans-serif;
 }
 
 /* Default configurations */
@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--fontPadrao);
+    font-family: var(--defaultFont);
 }
 
 /* Elements configurations */

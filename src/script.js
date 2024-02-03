@@ -98,8 +98,8 @@ generateBtn.addEventListener("click", function() {
         let generatedPassword = generatePassword(rangeInputValue, characters);
         document.querySelector('#password p').textContent = generatedPassword;
 
-        const forcaSenha = checkPasswordStrength(generatedPassword);
-        document.querySelector("strong").textContent = forcaSenha;
+        const passwordStrength = checkPasswordStrength(generatedPassword);
+        document.querySelector("strong").textContent = passwordStrength;
         
     }
 

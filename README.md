@@ -6,14 +6,6 @@ O gerador de senha, como o próprio nome já diz, é um app que tem a função d
 
 Essa aplicação pode ser usada por qualquer pessoa. Você pode ter acesso a ela clicando no primeiro link da aba de links.
 
-## Description in English 🌍
-
-# Password generator 🔑
-
-The password generator, as the name suggests, is an app that has the function of creating passwords. This specific app allows you to create random passwords using filters such as the number of characters we want our password to have and also the types of characters, such as uppercase letters, lowercase letters, numbers and symbols. The app also informs us whether our password is strong, medium or weak and finally the app allows us to quickly copy the password to use immediately.
-
-This application can be used by anyone. You can access it by clicking on the first link in the links tab.
-
 ## 🔗 Links
 
 <a href="https://antonioamandio.github.io/password-generator/src/index.html" target="_blank">https://antonioamandio.github.io/password-generator/src/index.html</a>
@@ -23,3 +15,11 @@ This application can be used by anyone. You can access it by clicking on the fir
 ## Screenshots
 
 ![App Screenshot](readme_files/screenshot.png)
+
+## Description in English 🌍
+
+# Password generator 🔑
+
+The password generator, as the name suggests, is an app that has the function of creating passwords. This specific app allows you to create random passwords using filters such as the number of characters we want our password to have and also the types of characters, such as uppercase letters, lowercase letters, numbers and symbols. The app also informs us whether our password is strong, medium or weak and finally the app allows us to quickly copy the password to use immediately.
+
+This application can be used by anyone. You can access it by clicking on the first link in the links tab.
